@@ -6,13 +6,14 @@ import winterBg from "@/assets/winter-bg.jpg";
 import dress from "@/assets/dress.png";
 import perfume from "@/assets/perfume.png";
 import accessories from "@/assets/accessories.png";
+import shoes from "@/assets/shoes.png";
 import Snowflakes from "@/components/Snowflakes";
 
 const gifts = [
   { img: dress, label: "Roupa:", detail: "pp" },
   { img: perfume, label: "Perfumes:", detail: "doce ou levinho" },
   { img: accessories, label: "Acessórios:", detail: "dourado" },
-  { img: null, label: "Sapato:", detail: "36/37" },
+  { img: shoes, label: "Sapato:", detail: "36/37" },
 ];
 
 const Presentes = () => {
