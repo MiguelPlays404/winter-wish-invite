@@ -80,20 +80,14 @@ const Presentes = () => {
                 transition={{ delay: 0.5 + i * 0.15, duration: 0.5 }}
                 className="border border-accent rounded-lg p-3 flex flex-col items-center bg-card/60"
               >
-                {gift.img ? (
-                  <img
-                    src={gift.img}
-                    alt={gift.label}
-                    loading="lazy"
-                    width={512}
-                    height={512}
-                    className="w-28 h-28 object-contain mb-2"
-                  />
-                ) : (
-                  <div className="w-28 h-28 flex items-center justify-center mb-2">
-                    <span className="text-5xl shimmer">👠</span>
-                  </div>
-                )}
+                <img
+                  src={gift.img}
+                  alt={gift.label}
+                  loading="lazy"
+                  width={512}
+                  height={512}
+                  className="w-28 h-28 object-contain mb-2"
+                />
                 <p className="font-heading text-sm font-semibold text-foreground text-center">
                   {gift.label}
                 </p>
